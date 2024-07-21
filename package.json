@@ -11,11 +11,15 @@
   "dependencies": {
     "@firebase/app": "^0.10.5",
     "@firebase/firestore": "^4.6.3",
+    "@react-native-community/slider": "^4.5.2",
     "@turf/bbox": "^7.0.0",
     "@turf/bbox-polygon": "^7.0.0",
+    "@turf/boolean-intersects": "^7.0.0",
     "@turf/boolean-point-in-polygon": "^7.0.0",
     "@turf/helpers": "^7.0.0",
+    "@turf/intersect": "^7.0.0",
     "@turf/square-grid": "^7.0.0",
+    "earcut": "^3.0.0",
     "expo": "~51.0.10",
     "expo-location": "~17.0.1",
     "expo-permissions": "^14.4.0",
@@ -25,7 +29,9 @@
     "geojson": "^0.5.0",
     "react": "18.2.0",
     "react-native": "0.74.1",
-    "react-native-maps": "^1.14.0"
+    "react-native-maps": "^1.14.0",
+    "expo-haptics": "~13.0.1",
+    "expo-checkbox": "~3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
