@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import MapScreen from "./MapScreen";
+import MapScreen from "./components/MapScreen";
 
 export default function App() {
   return (
